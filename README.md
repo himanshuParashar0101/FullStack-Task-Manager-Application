@@ -45,7 +45,7 @@ The project is divided into two main folders:
    - npm start
 
 4. Install Frontend Dependencies(again open new terminal)
-   -cd ../client
-   -npm install
-   -npm start
+   - cd ../client
+   - npm install
+   - npm start
 
