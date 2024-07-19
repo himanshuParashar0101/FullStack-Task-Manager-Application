@@ -47,7 +47,9 @@ The project is divided into two main folders:
 4. Install Frontend Dependencies(again open new terminal)
    - cd ../client
    - npm install
+   - npm install --legacy-peer-deps
    - npm start
+    
 5. Project ScreenShots
    -SignUp Page with testing screenshot
 
