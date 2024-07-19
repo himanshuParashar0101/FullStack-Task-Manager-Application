@@ -48,4 +48,21 @@ The project is divided into two main folders:
    - cd ../client
    - npm install
    - npm start
+5. Project ScreenShots
+   -SignUp Page with testing screenshot
+
+![Screenshot]([https://github.com/himanshuParashar0101/havaijhaaj/assets/103347563/54094576-142d-4112-838f-a78332a13ea6](https://github.com/himanshuParashar0101/FullStack-Task-Manager-Application/blob/main/client/public/password%20testing.jpg))
+ 
+  -Frontend ui-1
+
+![Screenshot](https://github.com/himanshuParashar0101/FullStack-Task-Manager-Application/blob/main/client/public/Blank.jpg)
+
+  -frontend ui-2
+  ![Screenshot](https://github.com/himanshuParashar0101/FullStack-Task-Manager-Application/blob/main/client/public/Frontend.jpg)
+
+  -Mongodb 
+  ![ScreenShot](https://github.com/himanshuParashar0101/FullStack-Task-Manager-Application/blob/main/client/public/login.jpg)
+
+  -MongoDB
+  ![ScreenShot](https://github.com/himanshuParashar0101/FullStack-Task-Manager-Application/blob/main/client/public/section.jpg)
 
