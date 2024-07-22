@@ -15,4 +15,9 @@ app.use(express.static(path.join(__dirname, 'server/public')));  // Ensure path 
 
 app.use('/api/v1', require('./src/v1/routes'));
 
+// Define a simple route for the root URL
+app.get('/', (req, res) => {
+  res.send('Hello, World!');
+});
+
 module.exports = app;
