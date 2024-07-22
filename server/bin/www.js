@@ -12,7 +12,6 @@ const mongoose = require('mongoose');
 
 dotenv.config();
 
-
 /**
  * Get port from environment and store in Express.
  */
@@ -30,17 +29,17 @@ const server = http.createServer(app);
  * Listen on provided port, on all network interfaces.
  */
 
-mongoose.connect(process.env.MONGODB_URL).then(() => {
-  server.listen(port);
-  server.on('error', onError);
-  server.on('listening', onListening);
-  console.log(`mongodb connected ${process.env.MONGODB_URL}`)
-}).catch(err => {
-  console.log(err);
-  process.exit(1);
-});
-
-
+mongoose.connect(process.env.MONGODB_URL)
+  .then(() => {
+    server.listen(port);
+    server.on('error', onError);
+    server.on('listening', onListening);
+    console.log(`MongoDB connected: ${process.env.MONGODB_URL}`);
+  })
+  .catch(err => {
+    console.error(err);
+    process.exit(1);
+  });
 
 /**
  * Normalize a port into a number, string, or false.
@@ -100,4 +99,7 @@ function onListening() {
     ? 'pipe ' + addr
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
+  console.log(`Server is listening on ${bind}`);
 }
+
+module.exports = server;
