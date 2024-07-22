@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const app = require('../../app');  // Ensure this path is correct
+const app = require('../app');  // Ensure this path is correct
 const debug = require('debug')('server:server');
 const http = require('http');
 const dotenv = require('dotenv');
